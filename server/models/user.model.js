@@ -1,5 +1,6 @@
 //use mongoose to define the user schema with the necessary user data fields
 import mongoose from 'mongoose'
+import crypto from 'crypto'
 
 const UserSchema = new mongoose.Schema({
 name: {
